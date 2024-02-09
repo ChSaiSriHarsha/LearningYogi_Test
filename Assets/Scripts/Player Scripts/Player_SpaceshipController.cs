@@ -196,7 +196,7 @@ public class Player_SpaceshipController : MonoBehaviour
 
             if (healthImages.Count >= 1 && !isDead)
             {
-                healthImages [0].DOFade (0f, 0.25f).SetEase (Ease.Linear).OnComplete (() =>
+                healthImages [0].DOFade (0f, 0.1f).SetEase (Ease.Linear).OnComplete (() =>
                 healthImages.Remove (healthImages [0]));
             }
 
