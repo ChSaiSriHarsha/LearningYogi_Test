@@ -11,12 +11,12 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Bullet
+  - Player
+  - Astroid
+  - BulletPowerUp
+  - ShieldPowerUp
+  - Shield
   - 
   - 
   - 
